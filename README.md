@@ -69,33 +69,32 @@
   - **ListCount="2"** Number of presets in the loop
   - **LoopCount="10"** Number of times to loop through the list of presets
 - Example Parameters:
-```<AutoControlValue>
+```
+<AutoControlValue> 
   <Sation WSname="DefaultDevice" ListCount="2" LoopCount="10">
+    <List0>
+      <ClMode>OnlyAdjustableVoltageType</ClMode>
+      <ClVoltage>12</ClVoltage>
+      <ClCurrent>3.2</ClCurrent>
+      <ClPower>0</ClPower>
+      <ClErrorDis>0</ClErrorDis>
+      <ClTimeAjust>0</ClTimeAjust>
+      <ClTimeSpans>10000</ClTimeSpans>
+      <ClEnble>True</ClEnble>
 
-    <Preset0>
-      <C1Mode>OnlyAdjustableVoltageType</C1Mode>
-      <C1Voltage>5.0</C1Voltage>
-      <C1Current>0.500</C1Current>
-      <C1Power>0</C1Power>
-      <C1ErrorDis>0</C1ErrorDis>
-      <C1TimeAjust>0</C1TimeAjust>
-      <C1TimeApans>6000</C1TimeApans>
-      <C1Enable>True</C1Enable>
-    </Preset0>
+      <ClMode>OnlyAdjustableVoltageType</ClMode>
+      <ClVoltage>6</ClVoltage>
+      <ClCurrent>1.5</ClCurrent>
+      <ClPower>0</ClPower>
+      <ClErrorDis>0</ClErrorDis>
+      <ClTimeAjust>0</ClTimeAjust>
+      <ClTimeSpans>10000</ClTimeSpans>
+      <ClEnble>True</ClEnble>
 
-    <Preset1>
-      <C1Mode>OnlyAdjustableVoltageType</C1Mode>
-      <C1Voltage>3.0</C1Voltage>
-      <C1Current>0.250</C1Current>
-      <C1Power>0</C1Power>
-      <C1ErrorDis>0</C1ErrorDis>
-      <C1TimeAjust>0</C1TimeAjust>
-      <C1TimeApans>9000</C1TimeApans>
-      <C1Enable>True</C1Enable>
-    </Preset1>
-
+    </List0>
   </Sation>
 </AutoControlValue> 
+ 
 ```
 
 #### Presets
