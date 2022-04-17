@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassRulesInfo>
+   <DeviceClass ClassID="D3" ClassName="3-digit display linear DC power supply">
+      <ClassTemplate>K3</ClassTemplate>
+      <ShotCutTemplate></ShotCutTemplate>
+      <EnableProgram>False</EnableProgram>
+      <EnableProtect>True</EnableProtect>
+    </DeviceClass>
+   <DeviceClass ClassID="K3" ClassName="3-digit display switch DC power supply ">
+      <ClassTemplate>K3</ClassTemplate>  
+      <ShotCutTemplate></ShotCutTemplate>  
+      <EnableProgram>False</EnableProgram>
+      <EnableProtect>True</EnableProtect>
+   </DeviceClass>
+   <DeviceClass ClassID="DF" ClassName="4-digit display linear DC power supply">
+      <ClassTemplate>KF</ClassTemplate>  
+      <ShotCutTemplate></ShotCutTemplate>  
+      <EnableProgram>False</EnableProgram>
+      <EnableProtect>True</EnableProtect>
+    </DeviceClass>
+   <DeviceClass ClassID="KF" ClassName="4-digit display switch DC power supply">
+      <ClassTemplate>KF</ClassTemplate>  
+      <ShotCutTemplate></ShotCutTemplate>  
+      <EnableProgram>False</EnableProgram>
+      <EnableProtect>True</EnableProtect>
+   </DeviceClass>
+   <DeviceClass ClassID="DP" ClassName="4-digit display programmable linear DC power supply">
+      <ClassTemplate>KP</ClassTemplate>  
+      <ShotCutTemplate>DP</ShotCutTemplate>  
+      <EnableProgram>True</EnableProgram>
+      <EnableProtect>False</EnableProtect>
+    </DeviceClass>
+   <DeviceClass ClassID="KP" ClassName="4-digit display programmable switch DC power supply">
+      <ClassTemplate>KP</ClassTemplate>  
+      <ShotCutTemplate>DP</ShotCutTemplate>  
+      <EnableProgram>True</EnableProgram>
+       <EnableProtect>False</EnableProtect>
+   </DeviceClass>
+   <DeviceClass ClassID="SP" ClassName="5-digit display  programmable  DC power supply">
+      <ClassTemplate>SP</ClassTemplate>  
+      <ShotCutTemplate></ShotCutTemplate>  
+      <EnableProgram>True</EnableProgram>
+       <EnableProtect>False</EnableProtect>
+   </DeviceClass>
+   <DeviceClass ClassID="KM" ClassName="4-digit display High-power switching power supply">
+      <ClassTemplate>KM</ClassTemplate>  
+      <ShotCutTemplate>DP</ShotCutTemplate>  
+      <EnableProgram>False</EnableProgram>
+       <EnableProtect>False</EnableProtect>
+   </DeviceClass>
+   <DeviceClass ClassID="KC" ClassName="4-digit High Power Digital Control Power Supply">
+      <ClassTemplate>KC</ClassTemplate>  
+      <ShotCutTemplate>DP</ShotCutTemplate>  
+      <EnableProgram>True</EnableProgram>
+       <EnableProtect>False</EnableProtect>
+   </DeviceClass>
+
+   <DeviceModel ModelID="305" ModelName="30V5A">
+      <MaxVoltage>30</MaxVoltage>
+      <MaxCurrent>5</MaxCurrent>
+      <MaxPower>150</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="3010" ModelName="30V10A">
+      <MaxVoltage>30</MaxVoltage>
+      <MaxCurrent>10</MaxCurrent>
+      <MaxPower>300</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="605" ModelName="60V5A">
+      <MaxVoltage>60</MaxVoltage>
+      <MaxCurrent>5</MaxCurrent>
+      <MaxPower>300</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="1003" ModelName="100V5A">
+      <MaxVoltage>100</MaxVoltage>
+      <MaxCurrent>5</MaxCurrent>
+      <MaxPower>300</MaxPower>
+   </DeviceModel>  
+   <DeviceModel ModelID="1520" ModelName="15V20A">
+      <MaxVoltage>15</MaxVoltage>
+      <MaxCurrent>20</MaxCurrent>
+      <MaxPower>300</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="1502" ModelName="150V2A">
+      <MaxVoltage>150</MaxVoltage>
+      <MaxCurrent>2</MaxCurrent>
+      <MaxPower>300</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="303" ModelName="30V3A">
+      <MaxVoltage>30</MaxVoltage>
+      <MaxCurrent>3</MaxCurrent>
+      <MaxPower>90</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="603" ModelName="60V3A">
+      <MaxVoltage>60</MaxVoltage>
+      <MaxCurrent>3</MaxCurrent>
+      <MaxPower>180</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="1501" ModelName="150V1A">
+      <MaxVoltage>150</MaxVoltage>
+      <MaxCurrent>1</MaxCurrent>
+      <MaxPower>150</MaxPower>
+   </DeviceModel>
+   
+   <DeviceModel ModelID="65535" ModelName="Customized version">
+      <MaxVoltage>9999</MaxVoltage>
+      <MaxCurrent>9999</MaxCurrent>
+      <MaxPower>9999</MaxPower>
+   </DeviceModel>
+   
+   <DeviceModel ModelID="6010" ModelName="60V10A">
+      <MaxVoltage>60</MaxVoltage>
+      <MaxCurrent>10</MaxCurrent>
+      <MaxPower>600</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="6015" ModelName="60V15A">
+      <MaxVoltage>60</MaxVoltage>
+      <MaxCurrent>15</MaxCurrent>
+      <MaxPower>900</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="6020" ModelName="60V20A">
+      <MaxVoltage>60</MaxVoltage>
+      <MaxCurrent>20</MaxCurrent>
+      <MaxPower>1200</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="6030" ModelName="60V30A">
+      <MaxVoltage>60</MaxVoltage>
+      <MaxCurrent>30</MaxCurrent>
+      <MaxPower>1800</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="3030" ModelName="30V30A">
+      <MaxVoltage>30</MaxVoltage>
+      <MaxCurrent>30</MaxCurrent>
+      <MaxPower>900</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="3050" ModelName="30V50A">
+      <MaxVoltage>30</MaxVoltage>
+      <MaxCurrent>50</MaxCurrent>
+      <MaxPower>1500</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="3060" ModelName="30V60A">
+      <MaxVoltage>30</MaxVoltage>
+      <MaxCurrent>60</MaxCurrent>
+      <MaxPower>1800</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="3020" ModelName="30V20A">
+      <MaxVoltage>30</MaxVoltage>
+      <MaxCurrent>20</MaxCurrent>
+      <MaxPower>600</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="5020" ModelName="50V20A">
+      <MaxVoltage>50</MaxVoltage>
+      <MaxCurrent>20</MaxCurrent>
+      <MaxPower>1000</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="5030" ModelName="50V30A">
+      <MaxVoltage>50</MaxVoltage>
+      <MaxCurrent>30</MaxCurrent>
+      <MaxPower>1500</MaxPower>
+   </DeviceModel>		
+   <DeviceModel ModelID="2050" ModelName="20V50A">
+      <MaxVoltage>20</MaxVoltage>
+      <MaxCurrent>50</MaxCurrent>
+      <MaxPower>1000</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="1560" ModelName="15V60A">
+      <MaxVoltage>15</MaxVoltage>
+      <MaxCurrent>60</MaxCurrent>
+      <MaxPower>900</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="10010" ModelName="100V10A">
+      <MaxVoltage>100</MaxVoltage>
+      <MaxCurrent>10</MaxCurrent>
+      <MaxPower>1000</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="1005" ModelName="100V5A">
+      <MaxVoltage>100</MaxVoltage>
+      <MaxCurrent>5</MaxCurrent>
+      <MaxPower>500</MaxPower>
+   </DeviceModel>	
+   <DeviceModel ModelID="2020" ModelName="20V20A">
+      <MaxVoltage>20</MaxVoltage>
+      <MaxCurrent>20</MaxCurrent>
+      <MaxPower>400</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="1505" ModelName="150V5A">
+      <MaxVoltage>150</MaxVoltage>
+      <MaxCurrent>5</MaxCurrent>
+      <MaxPower>750</MaxPower>
+   </DeviceModel>
+   <DeviceModel ModelID="2205" ModelName="220V5A">
+      <MaxVoltage>220</MaxVoltage>
+      <MaxCurrent>5</MaxCurrent>
+      <MaxPower>1100</MaxPower>
+   </DeviceModel>
+</ClassRulesInfo>

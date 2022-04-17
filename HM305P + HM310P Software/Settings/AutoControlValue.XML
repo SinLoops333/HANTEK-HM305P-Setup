@@ -1,0 +1,27 @@
+<AutoControlValue>
+  <Sation WSname="DefaultDevice" ListCount="2" LoopCount="10">
+
+    <Preset0>
+      <C1Mode>OnlyAdjustableVoltageType</C1Mode>
+      <C1Voltage>5.0</C1Voltage>
+      <C1Current>0.500</C1Current>
+      <C1Power>0</C1Power>
+      <C1ErrorDis>0</C1ErrorDis>
+      <C1TimeAjust>0</C1TimeAjust>
+      <C1TimeApans>6000</C1TimeApans>
+      <C1Enable>True</C1Enable>
+    </Preset0>
+
+    <Preset1>
+      <C1Mode>OnlyAdjustableVoltageType</C1Mode>
+      <C1Voltage>3.0</C1Voltage>
+      <C1Current>0.250</C1Current>
+      <C1Power>0</C1Power>
+      <C1ErrorDis>0</C1ErrorDis>
+      <C1TimeAjust>0</C1TimeAjust>
+      <C1TimeApans>9000</C1TimeApans>
+      <C1Enable>True</C1Enable>
+    </Preset1>
+
+  </Sation>
+</AutoControlValue>
