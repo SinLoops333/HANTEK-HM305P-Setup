@@ -56,7 +56,7 @@
 ![Screenshot 2022-04-17 051248](https://user-images.githubusercontent.com/83417785/163708243-14c13993-5dc5-4ae7-ab3a-14ab0b65ac06.jpg)
 
 - If everything worked properly, you will get a ***Setting success!*** pop-up
-- 
+
 ![Screenshot 2022-04-17 050552](https://user-images.githubusercontent.com/83417785/163708116-82e4c53a-8ceb-42bc-974b-e614aa0c1fdd.jpg)
 
 ## Create Presets
@@ -133,7 +133,7 @@
 - **NumberExecution:** The number of times the device has looped through all the enabled presets
 - **ExecutedToList:** Number of presets in the loop
 - **TimeToTheNext:** Time left until the next preset
-- 
+
 ![Screenshot 2022-04-17 050421](https://user-images.githubusercontent.com/83417785/163708118-b221d825-99b3-4088-9b4e-d34e3a2eee4d.jpg)
 
 ## Data Collection
