@@ -1,6 +1,7 @@
 # HANTEK-HM305P/HM310P-USB
 
 
+
 ## Tools
 - Windows Computer
 
@@ -57,12 +58,12 @@
 
 - If everything worked properly, you will get a ***Setting success!*** pop-up
 
-![Screenshot 2022-04-17 050552](https://user-images.githubusercontent.com/83417785/163708116-82e4c53a-8ceb-42bc-974b-e614aa0c1fdd.jpg)
+![Screenshot 2022-04-17 154725](https://user-images.githubusercontent.com/83417785/163828289-44ce7c77-3515-4790-8bca-cf817967db55.jpg)
 
 ## Create Presets
 - Navigate to and open the ```Settings/AutoControlValue.XML``` file 
 - Copy and paste one of the preset blocks
-  - Change the X to a different number```<PresetX>```
+  - Change the X to a different number```<ListX>```
   - Change any other values you'd like inside each parameter
 - ```<Sation WSname="DefaultDevice" ListCount="2" LoopCount="10">```
   - **WSname="DefaultDevice"** Text on the Preset Activation/Deactivation button
@@ -100,14 +101,14 @@
 #### Presets
 - Click on the ***Default Device Button***
 
-![Screenshot 2022-04-17 050516](https://user-images.githubusercontent.com/83417785/163708117-70896818-5c0b-4ddc-97ac-48382f8b7719.jpg)
+![Screenshot 2022-04-17 175323](https://user-images.githubusercontent.com/83417785/163828288-bb45029f-2a91-4eb9-ab99-569b4d2d4af7.jpg)
 
 - If there are any presets created, they will appear in the box below
 - Each preset has a *(Model, Voltage, Current, Power, Duration(ms), Inaccuracy, GapOfAdjustment, and Enable)*
 - To use the preset Double-Click on the ***Default Device Button***
 - You will then be prompted to turn on the device if it is not turned on. Click on ***Yes*** to turn the device on or manually do it
 
-![Screenshot 2022-04-17 050626](https://user-images.githubusercontent.com/83417785/163708115-80da982c-e5cf-4b57-8044-3b2735e213e3.jpg)
+![Screenshot 2022-04-17 174914](https://user-images.githubusercontent.com/83417785/163828293-373b822d-80a3-4895-9fe0-b6a5dd8e495e.jpg)
 
 - The software will then start looping between all of the presets that are currently ***Enabled***
 - The duration each preset will be active is set by ***Duration(ms)***
@@ -119,11 +120,11 @@
   -  Finally, after ***9 Seconds*** the device will restart the loop and set the device to ***Preset0*** 
 - To stop the loop. Double-Click on the ***Default Device Button*** again. You will be prompted with "Device Control" Click ***Yes*** to turn everything off
 
-![Screenshot 2022-04-17 050711](https://user-images.githubusercontent.com/83417785/163708325-3e980171-d30b-4a3c-9ceb-997a5b7a317d.jpg)
+![Screenshot 2022-04-17 174953](https://user-images.githubusercontent.com/83417785/163828284-11a21bf5-eb15-4b16-82b2-4f590ca8b961.jpg)
 
 - You will then be prompted with "Device is not shutdown" Click ***Yes*** again
 
-![Screenshot 2022-04-17 050803](https://user-images.githubusercontent.com/83417785/163708113-a1998470-5eef-42dd-89b0-4bbfddf2a352.jpg)
+![Screenshot 2022-04-17 175141](https://user-images.githubusercontent.com/83417785/163828286-1fcd57d8-7998-40c6-a7d8-ae8a3b5ab813.jpg)
 
 
 ## Data Visualization
@@ -133,7 +134,7 @@
 - **ExecutedToList:** Number of presets in the loop
 - **TimeToTheNext:** Time left until the next preset
 
-![Screenshot 2022-04-17 050421](https://user-images.githubusercontent.com/83417785/163708118-b221d825-99b3-4088-9b4e-d34e3a2eee4d.jpg)
+![Screenshot 2022-04-17 174841](https://user-images.githubusercontent.com/83417785/163828291-67bd1589-86e2-4bcf-8241-66e3152e1096.jpg)
 
 ## Data Collection
 - Navigate to and open the ```Log``` folder
